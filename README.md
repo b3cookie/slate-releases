@@ -7,9 +7,13 @@ This repository holds **only the installers and the update file**. The code is n
 
 ## Install
 
+You need a Mac with an Apple chip (M1 or newer) and macOS 15 or newer.
+
 1. Download the newest `Slate-<version>.dmg` from [Releases](../../releases/latest).
 2. Open it and drag **Slate** to **Applications**.
-3. The first time, right-click Slate in Applications and choose **Open**.
+3. The first time, macOS stops Slate because it is not from the App Store. Open
+   **System Settings › Privacy & Security**, scroll to the line about Slate and click
+   **Open Anyway**. The disk image's "Read me first" walks through it.
 
 Slate checks this page for updates by itself (Slate menu › Check for Updates).
 
